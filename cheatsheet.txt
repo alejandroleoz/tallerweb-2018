@@ -2,7 +2,6 @@ Cheatsheet
 ----------------------
 
 HTML
-
 html
 head
 title
