@@ -1,0 +1,18 @@
+Cheatsheet 
+----------------------
+
+HTML
+
+html
+head
+title
+body
+h1..h5
+table
+	- attr "id"
+	- attr "border"
+tr
+td
+	- attr "colspan"
+img
+	- attr src
