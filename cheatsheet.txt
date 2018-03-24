@@ -25,9 +25,15 @@ link
 	- src
 
 
+input
+	-type: checkbox
+	-onclick
+label
+
+
 CSS
 --------------
-display (flex)
+display (flex|none)
 flex-direction (row|column)
 flex-grow (1)
 font-family
@@ -37,3 +43,14 @@ padding
 width
 height
 border-bottom
+
+
+DOM API
+--------------------
+document.getElementById
+document.querySelectorAll()
+[array].forEach(item)
+[element].classList
+	- toggle(<clase>, <force>)
+[element].setAttribute()
+[element].removeAttribute()

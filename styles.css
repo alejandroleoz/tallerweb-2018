@@ -18,6 +18,10 @@
 	margin: 10px;
 }
 
+.tablas table.oculta {
+	display: none;
+}
+
 td.nombre-grupo {
 	font-family: "Helvetica";
 	font-size: 14px;

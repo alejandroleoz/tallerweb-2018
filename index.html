@@ -5,6 +5,7 @@
 		<title>Taller Web</title>
 
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="scripts.js"></script>
 	</head>
 
 	<!-- Area de BODY (visible) -->
@@ -19,6 +20,23 @@
 
 		<!-- Subtitulo -->
 		<h3>Visualizador de grupos del mundial Rusia 2018</h3>
+
+
+		<div>
+			<!-- Fila de "mostrar todos" -->
+			<div class="selector-todo">
+				<input id="cbTodo" type="checkbox" onclick="actualizarSeleccion()" checked="true" />
+				<label>Ver todos</label>
+			</div>
+
+			<!-- Combo para seleccionar grupo -->
+			<select id="selector-grupo" onchange="actualizarSeleccion()" disabled="true">
+				<option value="grupoD">Grupo D</option>
+				<option value="grupoE">Grupo E</option>
+				<option value="grupoF">Grupo F</option>
+			</select>
+
+		</div>
 
 		<div class="tablas">
 			<!-- Grupo X -->
