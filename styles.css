@@ -1,0 +1,37 @@
+
+.encabezado {
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 1px darkred;
+}
+
+.encabezado h1 {
+	flex-grow: 1;
+}
+
+.tablas {
+	display: flex;
+	flex-direction: row;
+}
+
+.tablas table {
+	margin: 10px;
+}
+
+td.nombre-grupo {
+	font-family: "Helvetica";
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+td.equipo {
+	font-family: "Helvetica";
+	font-size: 14px;
+	padding: 0 20px;
+}
+
+td.bandera img {
+	width: 24px;
+	height: 24px;
+}

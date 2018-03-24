@@ -2,6 +2,7 @@ Cheatsheet
 ----------------------
 
 HTML
+-------------
 html
 head
 title
@@ -15,3 +16,24 @@ td
 	- attr "colspan"
 img
 	- attr src
+
+
+div
+link
+	- rel
+	- type
+	- src
+
+
+CSS
+--------------
+display (flex)
+flex-direction (row|column)
+flex-grow (1)
+font-family
+font-size
+color
+padding
+width
+height
+border-bottom
