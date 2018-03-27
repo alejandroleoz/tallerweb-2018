@@ -39,3 +39,33 @@ td.bandera img {
 	width: 24px;
 	height: 24px;
 }
+
+.tips-area {
+	width: 100%;
+	min-height: 48px;
+	background-color: lightpink;
+    padding: 10px;		
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.tips-area > .loading-indicator {
+	width: 100%;
+	height: 64px;
+	background-image: url('loading.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 48px 48px;
+}
+
+.tips-area > .tip {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+
+.tips-area > .loading-indicator.oculta,
+.tips-area > .tip.oculta {
+	display: none;
+}

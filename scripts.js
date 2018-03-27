@@ -33,3 +33,23 @@ function actualizarSeleccion() {
 		// 	});
 	}
 }
+
+function actualizarTip() {
+	let loadingIndicator = document.querySelector("#tips-area > .loading-indicator"),
+		tipDiv = document.querySelector("#tips-area > .tip");
+
+	// mostrar loading y ocutlar tip mientras carga
+	loadingIndicator.classList.toggle("oculta", false);
+	tipDiv.classList.toggle("oculta", true);
+
+	window.getTip()
+		.then(tip => {
+
+			// oculto indicator
+			loadingIndicator.classList.toggle("oculta", true);
+
+			// actualizo tip
+			tipDiv.innerHTML = tip;
+			tipDiv.classList.toggle("oculta", false);
+		})
+}

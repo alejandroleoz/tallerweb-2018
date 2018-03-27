@@ -5,7 +5,8 @@
 		<title>Taller Web</title>
 
 		<link rel="stylesheet" type="text/css" href="styles.css">
-		<script src="scripts.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+		<script type="text/javascript" src="https://tallerweb2018.herokuapp.com/utils.js"></script>
 	</head>
 
 	<!-- Area de BODY (visible) -->
@@ -110,6 +111,12 @@
 
 		</div>
 		
+		<!-- TIPS -->
+		<div id="tips-area" class="tips-area">
+			<button onclick="actualizarTip()">Actualizar tip</button>
+			<div class="loading-indicator oculta"></div>
+			<div class="tip"></div>
+		</div>
 		
 
 	</body>

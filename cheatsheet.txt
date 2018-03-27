@@ -54,3 +54,7 @@ document.querySelectorAll()
 	- toggle(<clase>, <force>)
 [element].setAttribute()
 [element].removeAttribute()
+[element].innerHTML = xxx
+
+
+
